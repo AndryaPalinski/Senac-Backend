@@ -27,3 +27,6 @@ npx tsc --init
 
 # Adicionar script no package.jason
 "start": "npx tsc && node ./build/index.js"
+
+# Para rodar 
+ npm start
