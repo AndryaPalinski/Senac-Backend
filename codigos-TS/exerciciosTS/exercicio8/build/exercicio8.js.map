@@ -1,1 +1,1 @@
-{"version":3,"file":"exercicio8.js","sourceRoot":"","sources":["../scr/exercicio8.ts"],"names":[],"mappings":";AAAA,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAA"}
+{"version":3,"file":"exercicio8.js","sourceRoot":"","sources":["../scr/exercicio8.ts"],"names":[],"mappings":";AAEA,SAAS,eAAe,CAAC,IAAY,EAAE,QAAgB;IAEvD,IAAI,KAAK,GAAW,IAAI,CAAA;IACxB,IAAI,SAAS,GAAkB,QAAQ,CAAA;IAEvC,OAAM,CAAC,kBAAkB,KAAK,sBAAsB,SAAS,GAAG,CAAC,CAAC;AAElE,CAAC;AAED,OAAO,CAAC,GAAG,CAAE,eAAe,CAAC,QAAQ,EAAE,QAAQ,CAAC,CAAC,CAAC"}
