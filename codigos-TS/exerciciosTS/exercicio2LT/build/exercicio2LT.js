@@ -1,7 +1,9 @@
 "use strict";
-function vartype(name, age) {
-    const typeForname = name;
-    const typeForage = age;
-    return console.log(`${typeForname}, ${typeForage}`);
+function vartype(parameter) {
+    const any = typeof (parameter);
+    return any;
 }
+console.log(vartype("oi"));
+console.log(vartype("4"));
+console.log(vartype(true));
 //# sourceMappingURL=exercicio2LT.js.map

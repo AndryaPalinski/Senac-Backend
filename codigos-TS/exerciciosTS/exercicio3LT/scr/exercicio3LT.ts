@@ -1,5 +1,6 @@
-/*Crie uma função que receva todas as informações como parâmetros (3 essenciais + 1 opcional) 
-e retorne todas as informações organizadas em um 'type' */
+/*Crie uma função que receva todas as informações como parâmetros (3 essenciais[nome do filme, 
+ano de lançamento, genero do filme] + 1 opcional[score do site]) e retorne todas as informações 
+organizadas em um 'type' */
 
 enum genremovie {
     acao = "Ação",
@@ -9,7 +10,7 @@ enum genremovie {
     terror = "Terror"
 }
 
-function streaming(movieName: string, releaseYear: number, movieGender: string, siteScore?: number): void{
+function streaming(movieName: string, releaseYear: number, movieGender: string, siteScore?: number): any{
     let hasPontuation = siteScore ? ', Pontuação em site de resenha:' + siteScore : '';
 
     console.log(`Nome do filme: ${movieName}, Ano de lançamento: ${releaseYear},genero do filme: 
@@ -18,4 +19,4 @@ ${movieGender}  ${hasPontuation}` );
 
 }
 
-streaming('OI', 1234, genremovie.drama);
+streaming('Lokloklok', 2031, genremovie.comedia);

@@ -8,9 +8,9 @@ var genremovie;
     genremovie["terror"] = "Terror";
 })(genremovie || (genremovie = {}));
 function streaming(movieName, releaseYear, movieGender, siteScore) {
-    let hasPontuation = siteScore ? 'Pontuação em site de resenha:' + siteScore : '';
+    let hasPontuation = siteScore ? ', Pontuação em site de resenha:' + siteScore : '';
     console.log(`Nome do filme: ${movieName}, Ano de lançamento: ${releaseYear},genero do filme: 
-${movieGender},  ${hasPontuation}`);
+${movieGender}  ${hasPontuation}`);
 }
-streaming('OI', 1234, genremovie.drama);
+streaming('Lokloklok', 2031, genremovie.comedia);
 //# sourceMappingURL=exercicio3LT.js.map
