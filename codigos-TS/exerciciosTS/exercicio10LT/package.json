@@ -1,0 +1,12 @@
+{
+  "name": "exercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercicio10LT.js",
+  "scripts": {
+    "start": "npx tsc && node ./build/exercicio10LT.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
